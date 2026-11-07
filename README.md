@@ -4,6 +4,14 @@ A versioned skill set for planning and building code-rendered explainers, short 
 
 Use it to show an audience what a product can do, visualize an analytical result, or tell an age-appropriate story with optional choices. The entry skill recommends an animation direction and finds relevant code, style guides, or examples.
 
+## Video showcase
+
+A 54-second walkthrough of style selection, an employee AI showcase, and a children’s browser story. Includes narration and on-screen captions.
+
+https://github.com/user-attachments/assets/85a8d390-f880-47ef-b6c9-5a26ddd1538a
+
+[Editable animation source](docs/showcase/render.py)
+
 ## Install
 
 Download and extract the source archive from the [latest release](https://github.com/leowjs/animation-production-skills/releases/latest), or clone the tagged version:
