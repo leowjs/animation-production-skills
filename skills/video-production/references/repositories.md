@@ -103,3 +103,21 @@ A renderer for deterministic HTML-to-video workflows. Prefer it when an HTML/CSS
 [Repository](https://github.com/heygen-com/hyperframes) · 80,406 stars · Apache-2.0.
 
 At the [reviewed revision](https://github.com/heygen-com/hyperframes/commit/7b1d9ccebf9c7e2c2bd22b7e9d9487ce975d6425), start with [README.md](https://github.com/heygen-com/hyperframes/blob/7b1d9ccebf9c7e2c2bd22b7e9d9487ce975d6425/README.md), [packages/cli](https://github.com/heygen-com/hyperframes/tree/7b1d9ccebf9c7e2c2bd22b7e9d9487ce975d6425/packages/cli), [packages/engine](https://github.com/heygen-com/hyperframes/tree/7b1d9ccebf9c7e2c2bd22b7e9d9487ce975d6425/packages/engine), [skills](https://github.com/heygen-com/hyperframes/tree/7b1d9ccebf9c7e2c2bd22b7e9d9487ce975d6425/skills).
+
+## Remotion
+
+**Role** — optional renderer for video deliverables only.
+
+Use the Remotion agent skills for reusable React video compositions. Read `remotion-maps` for route animations, `remotion-captions` for timed subtitles, and `remotion-render` for the final export. Preview with the actual data and audio before rendering an MP4. For a live dashboard, interactive warehouse, or clickable story, use the matching browser or 3D workflow.
+
+[Remotion agent skills](https://github.com/remotion-dev/skills#available-skills) · 6,567 repository stars on 8 November 2026.
+
+## Microsoft VibeVoice
+
+**Role** — optional speech model for video narration and caption preparation.
+
+Use Realtime 0.5B to generate single-speaker narration from an approved script. It is primarily intended for English. Try one representative scene on the available hardware and check the pronunciation of names, acronyms, and numbers. Write formulas and symbols as spoken words. Generate a separate audio clip for each scene and set scene and caption timing from the final clips.
+
+Use VibeVoice ASR for existing recordings. Convert the timestamped transcript into subtitle cues and review the wording and timing against the recording. Microsoft recommends further testing before real-world use and removed the original multi-speaker TTS code from this repository. Keep the audio clips and captions as separate project assets so the renderer can reuse them.
+
+[VibeVoice repository](https://github.com/microsoft/VibeVoice) · 56,733 repository stars on 8 November 2026. [Text to speech](https://github.com/microsoft/VibeVoice/blob/main/docs/vibevoice-realtime-0.5b.md) · [Speech to text](https://github.com/microsoft/VibeVoice/blob/main/docs/vibevoice-asr.md).

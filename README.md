@@ -17,7 +17,7 @@ https://github.com/user-attachments/assets/85a8d390-f880-47ef-b6c9-5a26ddd1538a
 Download and extract the source archive from the [latest release](https://github.com/leowjs/animation-production-skills/releases/latest), or clone the tagged version:
 
 ```sh
-git clone --branch v1.0.0 https://github.com/leowjs/animation-production-skills.git
+git clone --branch v1.1.0 https://github.com/leowjs/animation-production-skills.git
 cd animation-production-skills
 ```
 
@@ -74,6 +74,6 @@ The [repository catalog](skills/video-production/references/repositories.md) exp
 
 ## Updates and license
 
-The first release is **v1.0.0**. To upgrade, download the newer release and repeat the copy steps. Review the [release notes](https://github.com/leowjs/animation-production-skills/releases) and keep any local edits in a separate copy.
+**v1.1.0** adds optional Remotion guidance for rendered videos and Microsoft VibeVoice guidance for narration and caption preparation. To upgrade, download the newer release and repeat the copy steps. Review the [release notes](https://github.com/leowjs/animation-production-skills/releases) and keep any local edits in a separate copy.
 
 See [LICENSE](LICENSE) for the original instructions and adaptations in this repository. Linked code, assets, original prompts, and media have their own terms.
